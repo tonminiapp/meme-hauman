@@ -1,36 +1,34 @@
 import React from "react";
-import { toast } from "react-toastify";
-import { useWallet } from "@solana/wallet-adapter-react";
+import Button from "../components/Button";
+import IconButton from "../components/IconButton";
+import Title from "../components/Title";
+import InstagramIcon from "../assets/images/instagram.svg";
+import Label from "../components/Label";
+import SmallCard from "../components/SmallCard";
+import Card from "../components/Card";
+import NavBar from "../components/NavBar";
 
 export default function Home() {
-  const { select, wallets, publicKey, disconnect } = useWallet();
-
-  const handleWalletConnect = () => {
-    if (!publicKey) {
-      const installedWallets = wallets.filter(
-        (wallet) => wallet.readyState === "Installed"
-      );
-      if (installedWallets.length <= 0) {
-        toast.error("Phantom wallet is not installed yet.");
-        return;
-      }
-      select(wallets[0].adapter.name);
-      toast.success("Wallet connected successfully.");
-    } else {
-      disconnect();
-    }
-  };
-
   return (
-    <button
-      className=""
-      onClick={handleWalletConnect}
-    >
-      {!publicKey
-        ? "CONNECT WALLET"
-        : publicKey.toBase58().slice(0, 6) +
-        " ... " +
-        publicKey.toBase58().slice(-6)}
-    </button>
+    <div className="container">
+      <NavBar />
+      <Button>Text</Button>
+      <Title>About</Title>
+      <IconButton icon={InstagramIcon} />
+      <Label>The Fiercest Token on Solana!</Label>
+      <SmallCard
+        title="Solana Wallet"
+        description="Download a Solana wallet of your choice, such as Phantom or Solflare browser extensions."
+      />
+      <Card
+        title="Solana Wallet"
+        description="Download a Solana wallet of your choice, such as Phantom or Solflare browser extensions."
+      />
+      <Card
+        title="To the MOON, fam!"
+        description="Download a Solana wallet of your choice, such as Phantom or Solflare browser extensions."
+        light={true}
+      />
+    </div>
   );
 }
