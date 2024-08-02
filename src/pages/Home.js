@@ -57,7 +57,7 @@ export default function Home() {
         <img className="object-contain mx-auto mt-10 max-lg:w-[200px] max-md:w-[150px] max-md:mt-6" src={QuokkaImage1} alt="Quokka" />
 
         {/* About Section */}
-        <section className="flex items-center justify-between mt-60 max-md:mt-14 max-md:text-center max-md:flex-col-reverse max-md:justify-center">
+        <section className="flex items-center justify-between mt-60 max-md:mt-14 max-md:text-center max-md:flex-col-reverse max-md:justify-center" id="about">
           <div>
             <div className="flex items-center w-full max-md:justify-center">
               <Title>About</Title>
@@ -129,7 +129,7 @@ export default function Home() {
         </section>
 
         {/* Roadmap Section */}
-        <section className="mt-60 max-md:mt-32 max-md:text-center">
+        <section className="mt-60 max-md:mt-32 max-md:text-center" id="roadmap">
           <Title className="relative text-center">
             Roadmap
             <div className="absolute bg-[#4C0665] z-[-1] opacity-70 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[518px] h-[582px] blur-[250px] max-md:w-[250px] max-md:h-[300px] max-md:blur-[120px] rounded-full"></div>
@@ -285,7 +285,7 @@ export default function Home() {
           backgroundImage: "url('/images/bg_tokenomics.png')",
           backgroundSize: "100% 1000px",
           backgroundRepeat: "no-repeat",
-        }}>
+        }} id="tokenomics">
           <Title className="text-center">
             Tokenomics
           </Title>
@@ -300,7 +300,7 @@ export default function Home() {
         </section>
 
         {/* Faq Section */}
-        <section className="mt-40 max-md:mt-20">
+        <section className="mt-40 max-md:mt-20" id="faq">
           <Faq />
         </section>
 
