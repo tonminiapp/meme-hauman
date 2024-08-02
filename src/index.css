@@ -11,6 +11,7 @@ body {
   margin: 0;
   background: #050505;
   color: white;
+  overflow-x: hidden;
 }
 
 code {
@@ -72,4 +73,24 @@ code {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.02) 100%) !important;
   -webkit-backdrop-filter: blur(40px) !important;
   backdrop-filter: blur(40px) !important;
+}
+
+.faq-row {
+  border-radius: 16px 16px 0 0;
+  padding: 24px !important;
+  background: #E558E010;
+  margin-bottom: 40px;
+  border-color: #E558E0 !important;
+  font-weight: 600;
+}
+
+.row-content-text {
+  color: white !important;
+  font-weight: 400;
+  font-size: 16px !important;
+  line-height: 36px !important;
+}
+
+.icon-wrapper {
+  margin-top: 20px !important;
 }

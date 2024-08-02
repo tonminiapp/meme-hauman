@@ -24,7 +24,7 @@ const headerLinks = [
 
 const NavBar = () => {
   return (
-    <nav className="flex items-center justify-between mt-10 max-md:mt-4">
+    <nav className="flex items-center justify-between">
       <div className='flex items-center gap-3'>
         <img className='max-md:w-10 max-md:h-10' src="/logo.png" alt="logo" />
         <div className='uppercase text-[32px] max-md:text-[24px]'>Quokka</div>

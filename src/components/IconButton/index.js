@@ -4,7 +4,7 @@ const IconButton = ({ icon, className, ...rest }) => {
 
     return (
         <div className='p-[2px] bg-[#FFC683] w-fit rounded-full transition-all ease-in-out active:scale-95'>
-            <div className='p-[1px] bg-black w-fit rounded-full'>
+            <div className='p-[1px] bg-[#1C141A] w-fit rounded-full'>
                 <button
                     className={`w-[50px] h-[50px] max-md:w-10 max-md:h-10 rounded-full border-[#780A7D] border flex items-center justify-center ${className}`}
                     style={{
