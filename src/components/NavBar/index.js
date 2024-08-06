@@ -43,7 +43,7 @@ const NavBar = () => {
           ))
         }
       </ul>
-      <Button className="max-md:hidden">Buy Quokka</Button>
+      <Button className="max-md:hidden">Connect</Button>
       <div className='md:hidden'>
         <Menu>
           <MenuButton className="data-[active]:bg-primary p-2 rounded-full">
