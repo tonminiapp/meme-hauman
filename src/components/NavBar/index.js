@@ -26,8 +26,8 @@ const NavBar = () => {
   return (
     <nav className="flex items-center justify-between">
       <div className='flex items-center gap-3'>
-        <img className='max-md:w-10 max-md:h-10' src="/logo.png" alt="logo" />
-        <div className='uppercase text-[32px] max-md:text-[24px]'>Quokka</div>
+        <img className='w-10 h-10 md:w-14 md:h-14' src="/logo.png" alt="logo" />
+        <div className='uppercase text-[32px] max-md:text-[24px]'>Hanuman</div>
       </div>
       <ul className='flex items-center gap-8 list-none max-lg:gap-4 max-md:hidden'>
         {
@@ -43,7 +43,6 @@ const NavBar = () => {
           ))
         }
       </ul>
-      <Button className="max-md:hidden">Connect</Button>
       <div className='md:hidden'>
         <Menu>
           <MenuButton className="data-[active]:bg-primary p-2 rounded-full">
@@ -52,7 +51,7 @@ const NavBar = () => {
           <MenuItems anchor="bottom" className="bg-[#FFB545] rounded-[10px] text-center mt-2">
             <MenuItem className="block">
               <div className='flex items-center justify-center px-4 py-2 text-white uppercase cursor-pointer bg-primary whitespace-nowrap'>
-                Buy Quokka
+                Buy Hanuman
               </div>
             </MenuItem>
             {headerLinks.map((link) => (

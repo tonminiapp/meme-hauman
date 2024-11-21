@@ -4,21 +4,21 @@ import Faq from "react-faq-component";
 const data = {
   rows: [
     {
-      title: "What is Quokka?",
-      content: `Quokka is a fun and energetic token on the Solana blockchain, inspired by the bold and cheerful spirit of the Quokka. It combines the excitement of meme culture with the power of cutting-edge blockchain technology.`,
+      title: "What is Hanuman?",
+      content: `Hanuman is a fun and energetic token on the Solana blockchain, inspired by the bold and cheerful spirit of the Hanuman. It combines the excitement of meme culture with the power of cutting-edge blockchain technology.`,
     },
     {
-      title: "How do I buy Quokka tokens?",
+      title: "How do I buy Hanuman tokens?",
       content:
-        "Quokka is a fun and energetic token on the Solana blockchain, inspired by the bold and cheerful spirit of the Quokka. It combines the excitement of meme culture with the power of cutting-edge blockchain technology.",
+        "Hanuman is a fun and energetic token on the Solana blockchain, inspired by the bold and cheerful spirit of the Hanuman. It combines the excitement of meme culture with the power of cutting-edge blockchain technology.",
     },
     {
-      title: "What makes Quokka different from other meme tokens?",
-      content: `Quokka is a fun and energetic token on the Solana blockchain, inspired by the bold and cheerful spirit of the Quokka. It combines the excitement of meme culture with the power of cutting-edge blockchain technology.`,
+      title: "What makes Hanuman different from other meme tokens?",
+      content: `Hanuman is a fun and energetic token on the Solana blockchain, inspired by the bold and cheerful spirit of the Hanuman. It combines the excitement of meme culture with the power of cutting-edge blockchain technology.`,
     },
     {
-      title: "What are the benefits of holding Quokka tokens?",
-      content: 'Quokka is a fun and energetic token on the Solana blockchain, inspired by the bold and cheerful spirit of the Quokka. It combines the excitement of meme culture with the power of cutting-edge blockchain technology.',
+      title: "What are the benefits of holding Hanuman tokens?",
+      content: 'Hanuman is a fun and energetic token on the Solana blockchain, inspired by the bold and cheerful spirit of the Hanuman. It combines the excitement of meme culture with the power of cutting-edge blockchain technology.',
     },
   ],
 };

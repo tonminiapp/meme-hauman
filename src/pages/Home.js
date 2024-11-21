@@ -9,11 +9,7 @@ import Label from "../components/Label";
 import SmallCard from "../components/SmallCard";
 import Card from "../components/Card";
 import NavBar from "../components/NavBar";
-import QuokkaImage1 from "../assets/images/quokka-1.png";
-import QuokkaImage2 from "../assets/images/quokka-2.png";
-import QuokkaImage3 from "../assets/images/quokka-3.png";
-import QuokkaImage4 from "../assets/images/quokka-4.png";
-import QuokkaImage5 from "../assets/images/quokka-5.png";
+import HanumanImage from "../assets/images/hanuman.png";
 import ChartTokenomics from "../assets/images/chart.png";
 import CheckIcon from "../assets/images/check.png";
 import PresaleCard from "../components/PresaleCard";
@@ -48,23 +44,23 @@ export default function Home() {
 
         <div className="mt-20 max-md:mt-14 flex flex-col text-center items-center justify-center m-auto max-w-[1100px] w-full px-2">
           <Label>The Fiercest Token on Solana!</Label>
-          <div className="text-[56px] max-md:text-[30px] leading-none mt-5">Unleash the Power of Quokka</div>
+          <div className="text-[56px] max-md:text-[30px] leading-none mt-5">Unleash the Power of Hanuman</div>
           <div className="font-jaka leading-[35px] max-md:text-[16px] max-md:leading-[24px] font-medium text-[20px] max-w-[800px] mt-5 max-md:mt-3">
-            Join our dynamic community of meme lovers and crypto enthusiasts, and harness the energy of the fiercest Quokka in the solana jungle!
+            Join our dynamic community of meme lovers and crypto enthusiasts, and harness the energy of the fiercest Hanuman in the solana jungle!
           </div>
         </div>
 
-        <img className="object-contain mx-auto mt-10 max-lg:w-[200px] max-md:w-[150px] max-md:mt-6" src={QuokkaImage1} alt="Quokka" />
+        <img className="object-contain mx-auto mt-10 md:w-[200px] w-[150px] lg:w-[400px] max-md:mt-6" src={HanumanImage} alt="Hanuman" />
 
         {/* About Section */}
         <section className="flex items-center justify-between mt-60 max-md:mt-14 max-md:text-center max-md:flex-col-reverse max-md:justify-center" id="about">
           <div>
             <div className="flex items-center w-full max-md:justify-center">
               <Title>About</Title>
-              <div className="text-primary uppercase text-[40px] max-md:text-[32px] ml-4">Quokka</div>
+              <div className="text-primary uppercase text-[40px] max-md:text-[32px] ml-4">Hanuman</div>
             </div>
             <div className="text-[16px] max-md:text-[14px] leading-[35px] max-md:leading-[24px] font-jaka w-full max-w-[560px]">
-              Welcome to Quokka, the fiercest and most energetic token on the Solana blockchain! Inspired by the audacious spirit of the Quokka, our token embodies the perfect blend of fun and fearlessness. Quokka isn't just another meme token; it's a revolution in the crypto world
+              Welcome to Hanuman, the fiercest and most energetic token on the Solana blockchain! Inspired by the audacious spirit of the Hanuman, our token embodies the perfect blend of fun and fearlessness. Hanuman isn't just another meme token; it's a revolution in the crypto world
             </div>
             <div className="max-md:m-auto max-md:w-fit">
               <div className="flex items-center gap-3 mt-8">
@@ -80,21 +76,12 @@ export default function Home() {
                 <div className="font-jaka font-semibold text-[16px]">Playful Yet Powerful</div>
               </div>
             </div>
-            <Button className="mt-10 max-md:m-auto max-md:mt-8">Buy Quokka</Button>
+            <Button className="mt-10 max-md:m-auto max-md:mt-8">Buy Hanuman</Button>
           </div>
           <div className="relative">
-            <img className="max-md:mt-16 max-md:w-[80%] max-md:m-auto" src={QuokkaImage2} alt="quokka" />
+            <img className="max-md:mt-16 w-[80%] md:w-[600px] max-md:m-auto" src={HanumanImage} alt="Hanuman" />
             <div className="absolute bg-[#4C0665] z-[-1] opacity-70 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[518px] h-[582px] blur-[250px] max-md:w-[250px] max-md:h-[300px] max-md:blur-[120px] rounded-full"></div>
           </div>
-        </section>
-
-        {/* Pre-Sale Section */}
-        <section className="flex items-center justify-between mt-60 max-md:mt-10 max-md:text-center max-md:flex-col max-md:justify-center">
-          <div className="relative mb-5">
-            <img className="max-md:mt-16 max-md:w-[80%] max-md:m-auto" src={QuokkaImage3} alt="quokka" />
-            <div className="absolute bg-[#4C0665] z-[-1] opacity-70 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[518px] h-[582px] blur-[250px] max-md:w-[250px] max-md:h-[300px] max-md:blur-[120px] rounded-full"></div>
-          </div>
-          <PresaleCard />
         </section>
 
         {/* How-to-buy Section */}
@@ -121,8 +108,8 @@ export default function Home() {
             <div className="max-w-[335px] w-full max-md:max-w-none">
               <div className="m-auto py-[6px] px-[10px] w-fit rounded-[6px] leading-none text-black bg-white text-[24px] mb-10">03</div>
               <SmallCard
-                title="Buy Quokka"
-                description="Paste in the Quokka address. Select the amount you want to purchase and confirm your transaction"
+                title="Buy Hanuman"
+                description="Paste in the Hanuman address. Select the amount you want to purchase and confirm your transaction"
               />
             </div>
           </div>
@@ -192,8 +179,8 @@ export default function Home() {
                 >
                   <div>
                     <Card
-                      title="Presale Extravaganza!"
-                      description="Launching the presale on our own launchpad and other major platforms, focusing on hyped social growth and brand awareness. Get ready for the hype!"
+                      title="Meme Extravaganza!"
+                      description="Launching the coin on our own launchpad and other major platforms, focusing on hyped social growth and brand awareness. Get ready for the hype!"
                       className="max-w-[500px] max-md:m-auto max-md:mt-10"
                     />
                   </div>
@@ -234,8 +221,8 @@ export default function Home() {
                 >
                   <div>
                     <Card
-                      title="$Quokka Official Launch"
-                      description="Rolling out the $Quokka with strategic marketing campaigns to promote its adoption around the globe, baby. Time to shine!"
+                      title="$HNMN Official Launch"
+                      description="Rolling out the $HNMN with strategic marketing campaigns to promote its adoption around the globe, baby. Time to shine!"
                       className="max-w-[500px] max-md:m-auto max-md:mt-10"
                     />
                   </div>
@@ -255,7 +242,7 @@ export default function Home() {
                 >
                   <div>
                     <Card
-                      title="Quokka Storytime"
+                      title="Hanuman Storytime"
                       description="With a few degen frens and a lot of energy, we bashed out brainstorming ideas, creating the whitepaper, and outlining the project's plan."
                       className="max-w-[500px] max-md:m-auto max-md:mt-10"
                     />
@@ -291,7 +278,7 @@ export default function Home() {
           </Title>
           <div className="flex items-center justify-between max-md:flex-col">
             <div>
-              <img className="" src={QuokkaImage4} alt="quokka" />
+              <img className="w-[80%] md:w-[600px]" src={HanumanImage} alt="Hanuman" />
             </div>
             <div className="pr-5">
               <img className="" src={ChartTokenomics} alt="chart" />
@@ -320,7 +307,7 @@ export default function Home() {
               Join The Community
             </div>
             <div className='text-[16px] max-md:text-[14px] leading-[35px] max-md:leading-[24px] flex items-center gap-6 max-md:flex-col'>
-              <Button className="">Buy Quokka</Button>
+              <Button className="">Buy Hanuman</Button>
               <div className="flex items-center gap-5">
                 <IconButton icon={InstagramIcon} />
                 <IconButton icon={YoutubeIcon} />
@@ -328,7 +315,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <img className="absolute bottom-10 right-10 max-md:w-[90px] max-md:left-1/2 max-md:-translate-x-1/2 max-md:-top-28" src={QuokkaImage5} alt="quokka" />
+          <img className="absolute bottom-10 right-10 md:w-[200px] w-[90px] left-1/2 -translate-x-1/2 -top-28" src={HanumanImage} alt="Hanuman" />
         </section>
       </div>
 
@@ -345,7 +332,7 @@ export default function Home() {
         >
           <div className='flex items-center gap-3'>
             <img className='w-10 h-10' src="/logo.png" alt="logo" />
-            <div className='uppercase text-[24px] max-md:text-[18px]'>Quokka</div>
+            <div className='uppercase text-[24px] max-md:text-[18px]'>Hanuman</div>
           </div>
           <ul className='flex items-center gap-8 list-none max-lg:gap-4 max-md:mt-5'>
             {
@@ -363,7 +350,7 @@ export default function Home() {
           </ul>
         </div>
         <div className="bg-[#FF5DF9] text-[24px] max-md:text-[18px] leading-none text-center py-8">
-          2024 Quokka © All Rights Reserved.
+          2024 Hanuman © All Rights Reserved.
         </div>
       </div>
     </div >

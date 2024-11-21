@@ -80,7 +80,7 @@ const PresaleCard = ({ ...props }) => {
           <div className='text-[16px]'>843821</div>
           <div className='flex items-center gap-2'>
             <img className='w-6 h-6' src="logo.png" alt="usdc" />
-            <div>QUOKKA</div>
+            <div>Hanuman</div>
           </div>
         </div>
         <div className="p-[2px] bg-[#FFC683] rounded-full transition-all ease-in-out active:scale-95 w-full mt-5">
